@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProSalud</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ProSalud</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#contacto">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="tienda">
+            <h2>Misión</h2>
+            <p>"Nuestra misión es ofrecer una amplia gama de productos médicos de alta calidad a precios competitivos, garantizando un excelente servicio al cliente y proporcionando asesoramiento experto para satisfacer las necesidades de nuestros clientes. Nos comprometemos a apoyar la salud y el bienestar de nuestra comunidad mediante la disponibilidad y la accesibilidad de productos médicos confiables y eficaces."</p>
+        </div>
+        <div class="tienda">
+            <h2>Visión</h2>
+            <p>"Ser la tienda líder en la provisión de soluciones médicas accesibles y de alta calidad, mejorando la salud y el bienestar de nuestra comunidad mediante un compromiso inquebrantable con la excelencia, la innovación y el servicio al cliente."</p>
+        </div>
+        <div class="tienda">
+            <h2>Valores</h2>
+            <p>Los valores son los principios y creencias que guiarán el comportamiento y las decisiones de tu tienda. Aquí tienes algunos ejemplos de valores que podrías adoptar:</p>
+            <ul class="lista">
+                <li><b>Compromiso con la Calidad:</b> Nos dedicamos a ofrecer solo productos médicos que cumplen con los más altos estándares de calidad y seguridad.</li>
+                <li><b>Servicio al Cliente:</b> Priorizamos la satisfacción del cliente, proporcionando atención personalizada, asistencia experta y soluciones que se ajusten a sus necesidades individuales.</li>
+                <li><b>Integridad:</b> Actuamos con honestidad y transparencia en todas nuestras operaciones, garantizando confianza y fidelidad por parte de nuestros clientes</li>
+            </ul>
+        </div>
+    </div>
+    <section id="inicio" class="section">
+        <h2>Bienvenidos a ProSalud</h2>
+        <p>En ProSalud, tu salud y bienestar son nuestra prioridad. Te invitamos a explorar nuestra tienda y descubrir cómo podemos ayudarte a mejorar tu calidad de vida con productos médicos de confianza. ¡Visítanos!</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1rdBqq7YUHzLmdWeFHR9UEbLnCZAXOf_OqiGvmCb2EgrcxITxKQzDeIu1msLnOQiLcrU&usqp=CAU" alt="ProSalud">
+    </section>
+
+    <section id="quienes-somos" class="section">
+        <h2>Quiénes Somos</h2>
+        <p><b>ProSalud</b> es tu aliado confiable en el mundo de la salud y el bienestar. Somos una tienda especializada en la venta de productos médicos de alta calidad, comprometidos con ofrecer soluciones efectivas y accesibles para todos. Nuestra misión es proporcionar un amplio catálogo de productos médicos que cumplen con los más rigurosos estándares de calidad, respaldados por un servicio al cliente excepcional.</p>
+    </section>
+    <div>
+        <h2>Nuestos Productos</h2>
+        <figure>
+            <img src="https://i0.wp.com/portatilshoprd.com/wp-content/uploads/2017/10/a15.jpg?resize=430%2C430&ssl=1" alt="">
+        </figure>
+        <figure>
+            <img src="https://i0.wp.com/portatilshoprd.com/wp-content/uploads/2017/05/Bloeddrukmeter-Arm-Digital-Upper-Blood-Pressure-Monitor-Holter-Tonometer-Blood-Pressure-With-Nibp-Cuff-Sphygmomanometer-45-600x600.jpg?resize=430%2C430&ssl=1" alt="">
+        </figure>
+        <figure>
+            <img src="https://i0.wp.com/portatilshoprd.com/wp-content/uploads/2023/07/H4ff13286bb0e48a28e1a53ef1f6181e3F.jpg_960x960.png?resize=430%2C430&ssl=1" alt="">
+        </figure>
+    </div>
+    <section id="contacto" class="section">
+        <h2>Contáctenos</h2>
+        <p>Si tienes alguna pregunta o comentario, por favor, contáctanos:</p>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p class="parrafo">&copy; 2024 ProSalud. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
